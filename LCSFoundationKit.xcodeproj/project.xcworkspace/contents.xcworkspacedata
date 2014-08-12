@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LCFoundationKit.xcodeproj">
+      location = "self:LCSFoundationKit.xcodeproj">
    </FileRef>
 </Workspace>

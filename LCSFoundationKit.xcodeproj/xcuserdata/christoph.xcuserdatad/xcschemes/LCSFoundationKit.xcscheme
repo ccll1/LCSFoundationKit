@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5966410B1998CF830064E4DF"
-               BuildableName = "LCFoundationKit.framework"
-               BlueprintName = "LCFoundationKit"
-               ReferencedContainer = "container:LCFoundationKit.xcodeproj">
+               BuildableName = "LCSFoundationKit.framework"
+               BlueprintName = "LCSFoundationKit"
+               ReferencedContainer = "container:LCSFoundationKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "596641221998CF830064E4DF"
-               BuildableName = "LCFoundationKitTests.xctest"
-               BlueprintName = "LCFoundationKitTests"
-               ReferencedContainer = "container:LCFoundationKit.xcodeproj">
+               BuildableName = "LCSFoundationKitTests.xctest"
+               BlueprintName = "LCSFoundationKitTests"
+               ReferencedContainer = "container:LCSFoundationKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -49,6 +49,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5966410B1998CF830064E4DF"
+            BuildableName = "LCSFoundationKit.framework"
+            BlueprintName = "LCSFoundationKit"
+            ReferencedContainer = "container:LCSFoundationKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
