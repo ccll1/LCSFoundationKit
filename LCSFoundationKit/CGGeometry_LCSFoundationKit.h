@@ -1,12 +1,12 @@
 //
-//  NSGeometry_LCSFoundationKit.h
+//  CGGeometry_LCSFoundationKit.h
 //  Christoph Lauterbach's Standard Foundation Kit
 //
 //  Created by Christoph Lauterbach on 11.08.14.
 //  Copyright (c) 2014 Christoph Lauterbach. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 /**
  *  Returns the point of the rect with the maximum X and maximum Y coordinate.
@@ -15,7 +15,7 @@
  *
  *  @return The point of the rect with the maximum X and maximum Y coordinate.
  */
-NSPoint NSRectGetMaxXmaxY(NSRect rect);
+CGPoint CGRectGetMaxXmaxY(CGRect rect);
 
 /**
  *  Returns the point of the rect with the minimum X and maximum Y coordinate.
@@ -24,7 +24,7 @@ NSPoint NSRectGetMaxXmaxY(NSRect rect);
  *
  *  @return The point of the rect with the minimum X and maximum Y coordinate.
  */
-NSPoint NSRectGetMinXmaxY(NSRect rect);
+CGPoint CGRectGetMinXmaxY(CGRect rect);
 
 /**
  *  Returns the point of the rect with the minimum X and minimum Y coordinate.
@@ -33,7 +33,7 @@ NSPoint NSRectGetMinXmaxY(NSRect rect);
  *
  *  @return The point of the rect with the minimum X and minimum Y coordinate.
  */
-NSPoint NSRectGetMinXminY(NSRect rect);
+CGPoint CGRectGetMinXminY(CGRect rect);
 
 /**
  *  Returns the point of the rect with the maximum X and minimum Y coordinate.
@@ -42,7 +42,7 @@ NSPoint NSRectGetMinXminY(NSRect rect);
  *
  *  @return The point of the rect with the maximum X and minimum Y coordinate.
  */
-NSPoint NSRectGetMaxXminY(NSRect rect);
+CGPoint CGRectGetMaxXminY(CGRect rect);
 
 /**
  *  Returns the center point of the rect.
@@ -52,7 +52,7 @@ NSPoint NSRectGetMaxXminY(NSRect rect);
  *  @return The center point of the rect.
  */
 
-NSPoint NSRectGetCenter(NSRect rect);
+CGPoint CGRectGetCenter(CGRect rect);
 
 /**
  *  Returns a rect spanned between the two passed points. The points do not need to be in any particular order. The returned rect is always guaranteed to have positive width and height values.
@@ -62,6 +62,6 @@ NSPoint NSRectGetCenter(NSRect rect);
  *
  *  @return A rect spanned between the two passed points.
  */
-NSRect NSRectMakeBetweenPoints(NSPoint pointA, NSPoint pointB);
+CGRect CGRectMakeBetweenPoints(CGPoint pointA, CGPoint pointB);
 
 

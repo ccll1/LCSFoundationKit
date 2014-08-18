@@ -57,7 +57,7 @@
  -(int)crc32
 {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
-    return data.crc32;
+    return data.crc32Checksum;
 }
 
 - (NSString*)stringByStrippingByCharactersFromSet:(NSCharacterSet*)characterSet

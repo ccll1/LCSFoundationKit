@@ -22,6 +22,6 @@
  *
  *  @return The CRC32 checksum.
  */
-- (int)crc32;
+- (int)crc32Checksum;
 
 @end

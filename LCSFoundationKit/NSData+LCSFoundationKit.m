@@ -25,7 +25,7 @@
             result[12], result[13], result[14], result[15]];
 }
 
-- (int)crc32
+- (int)crc32Checksum
 {
     uLong crc = crc32(0, Z_NULL, 0);
     return (int)crc32(crc, self.bytes, (unsigned int)self.length);

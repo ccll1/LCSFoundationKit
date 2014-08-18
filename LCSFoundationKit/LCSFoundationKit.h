@@ -1,21 +1,25 @@
 //
 //  LCSFoundationKit.h
-//  Christoph Lauterbach's Standard Foundation Kit
+//  LCSFoundationKit
 //
-//  Created by Christoph Lauterbach on 11.08.14.
+//  Created by Christoph Lauterbach on 18.08.14.
 //  Copyright (c) 2014 Christoph Lauterbach. All rights reserved.
 //
 
-#import "NSArray+LCSFoundationKit.h"
-#import "NSCharacterSet+LCSFoundationKit.h"
-#import "NSData+LCSFoundationKit.h"
-#import "NSDictionary+LCSFoundationKit.h"
-#import "NSGeometry_LCSFoundationKit.h"
-#import "NSIndexSet+LCSFoundationKit.h"
-#import "NSRegularExpression+LCSFoundationKit.h"
-#import "NSString+LCSFoundationKit.h"
-#import "NSURL+LCSFoundationKit.h"
+#import <Foundation/Foundation.h>
 
-//@interface LCSFoundationKit : NSObject
-//
-//@end
+//! Project version number for LCSFoundationKit.
+FOUNDATION_EXPORT double LCSFoundationKitVersionNumber;
+
+//! Project version string for LCSFoundationKit.
+FOUNDATION_EXPORT const unsigned char LCSFoundationKitVersionString[];
+
+#import <LCSFoundationKit/NSArray+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSCharacterSet+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSData+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSDictionary+LCSFoundationKit.h>
+#import <LCSFoundationKit/CGGeometry_LCSFoundationKit.h>
+#import <LCSFoundationKit/NSIndexSet+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSRegularExpression+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSString+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSURL+LCSFoundationKit.h>
