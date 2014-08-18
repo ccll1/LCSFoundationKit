@@ -21,7 +21,7 @@ There is only partial test coverage.
 
 ## Contact
 
-[Christoph Lauterbach](https://github.com/ccll1)
+[Christoph Lauterbach](https://github.com/ccll1)<br>
 [@ccll1](https://twitter.com/ccll1)
 
 
