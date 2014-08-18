@@ -49,7 +49,7 @@ CGPoint CGRectGetMaxXminY(CGRect rect);
  *
  *  @param rect A rectangle.
  *
- *  @return The center point of the rect.
+ *  @return The center point of <code>rect</code>.
  */
 
 CGPoint CGRectGetCenter(CGRect rect);

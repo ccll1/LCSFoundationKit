@@ -16,6 +16,8 @@
  *  @param object The object to test for equality.
  *
  *  @return The key whose value is equal to the passed object.
+ *
+ *  @see keysOfEntriesPassingTest:
  */
 - (id)firstKeyForObject:(id)object;
 

@@ -25,17 +25,17 @@
 /**
  *  Returns the CRC32 checksum of the receiver, using UTF8 encoding.
  */
-@property (readonly,nonatomic) int crc32;
+@property (readonly,nonatomic) int crc32Checksum;
 
 /**
- *  Returns a NSRange covering the whole receiver. Shortcut for NSMakeRange(0, self.length).
+ *  Returns a <code>NSRange</code> covering the whole receiver. Shortcut for <code>NSMakeRange(0, self.length)</code>.
  */
 @property (readonly,nonatomic) NSRange completeRange;
 
 /**
  *  Creates and returns a new string with all of the characters from the given set removed.
  *
- *  @param characterSet A character set with characters to remove from the string. Must not be nil.
+ *  @param characterSet A character set with characters to remove from the string. Must not be <code>nil</code>.
  *
  *  @return A new string with all of the characters from the given set removed.
  */
@@ -44,9 +44,9 @@
 /**
  *  Tests weather the receiver has a prefix from the given set.
  *
- *  @param prefixSet A set with NSString's. Must not be nil.
+ *  @param prefixSet A set with NSString's. Must not be <code>nil</code>.
  *
- *  @return YES if the receiver begins with on of the strings of the passed set, NO otherwise.
+ *  @return <code>YES</code> if the receiver begins with on of the strings of the passed set, <code>NO</code> otherwise.
  */
 - (BOOL)hasPrefixFromSet:(NSSet*)prefixSet;
 
@@ -78,27 +78,27 @@
 - (NSString*)stringByShiftingRightByNumberOfWhitespaces:(NSUInteger)numberOfWhitespaces;
 
 /**
- *  Returns the user part of an email address. Returns nil if the string is not a valid email address.
+ *  Returns the user part of an email address. Returns <code>nil</code> if the string is not a valid email address.
  */
 @property (readonly,nonatomic) NSString *userForEmailString;
 
 /**
- *  Returns the domain part of an email address. Returns nil if the string is not a valid email address.
+ *  Returns the domain part of an email address. Returns <code>nil</code> if the string is not a valid email address.
  */
 @property (readonly,nonatomic) NSString *domainForEmailString;
 
 /**
- *  Returns the domain part of an web url string. Returns nil if the string is not a valid web url address.
+ *  Returns the domain part of an web url string. Returns <code>nil</code> if the string is not a valid web url address.
  */
 @property (readonly,nonatomic) NSString *domainForUrlString;
 
 /**
- *  Returns the top level domain part of an email address. Returns nil if the string is not a valid email address.
+ *  Returns the top level domain part of an email address. Returns <code>nil</code> if the string is not a valid email address.
  */
 @property (readonly,nonatomic) NSString *tldForEmailString;
 
 /**
- *  Returns the top level domain part of an web url address. Returns nil if the string is not a valid web url address.
+ *  Returns the top level domain part of an web url address. Returns <code>nil</code> if the string is not a valid web url address.
  */
 @property (readonly,nonatomic) NSString *tldForUrlString;
 

@@ -54,7 +54,7 @@
     return data.md5Checksum;
 }
 
- -(int)crc32
+ -(int)crc32Checksum
 {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
     return data.crc32Checksum;

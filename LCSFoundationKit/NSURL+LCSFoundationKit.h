@@ -11,7 +11,7 @@
 @interface NSURL (LCSFoundationKit)
 
 /**
- *  Takes a dictionary of strings and forms a query string. For example, a dictionary of @[@"key1": @"value1", @"key2", @"value2"] returns @"key1=value1&key2=value2". Returns an zero-length string if the passed dictionary is nil or if it contains no elements.
+ *  Takes a dictionary of strings and forms a query string. For example, a dictionary of <code>@{@"key1": @"value1", @"key2", @"value2"}</code> returns <code>@"key1=value1&key2=value2"</code>. Returns an zero-length string if the passed dictionary is <code>nil</code> or if it contains no elements.
  *
  *  @param queryComponents The input dictionary
  *
@@ -20,7 +20,7 @@
 + (NSString*)queryStringOfComponents:(NSDictionary*)queryComponents;
 
 /**
- *  Returns a dictionary with the query string split into key-value pairs. For example, if the receiver has a query string of @"key1=value1&key2=value2", this method returns @[@"key1": @"value1", @"key2", @"value2"]
+ *  Returns a dictionary with the query string split into key-value pairs. For example, if the receiver has a query string of <code>@"key1=value1&key2=value2"</code>, this method returns <code>@{@"key1": @"value1", @"key2", @"value2"}</code>
  */
 @property (readonly,nonatomic) NSDictionary *queryComponents;
 
