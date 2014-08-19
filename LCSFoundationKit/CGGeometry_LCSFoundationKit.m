@@ -8,6 +8,8 @@
 
 #import "CGGeometry_LCSFoundationKit.h"
 
+#import <math.h>
+
 CGPoint CGRectGetMaxXmaxY(CGRect rect) {
     return CGPointMake(CGRectGetMaxX(rect), CGRectGetMaxY(rect));
 }

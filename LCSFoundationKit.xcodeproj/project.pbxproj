@@ -34,12 +34,12 @@
 		59009DD019A1C59E007C3314 /* LCSFMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7EC16199B66BE0022F0A0 /* LCSFMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59009DD619A1C624007C3314 /* LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59009DD319A1C620007C3314 /* LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59009DD719A1C625007C3314 /* LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59009DD319A1C620007C3314 /* LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591E352619A38D0000E49204 /* LCSFMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7EC16199B66BE0022F0A0 /* LCSFMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		595A56DF1998FBC500E8749F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596641241998CF830064E4DF /* XCTest.framework */; };
 		595A56E21998FC0400E8749F /* NSRegularExpression_LCSFoundationKit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D451998F9FD001B6A01 /* NSRegularExpression_LCSFoundationKit_Tests.m */; };
 		596641291998CF830064E4DF /* LCSFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966410C1998CF830064E4DF /* LCSFoundationKit.framework */; };
 		597F7D3E1998E74000C85CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596641121998CF830064E4DF /* Foundation.framework */; };
 		597F7D401998E74800C85CEC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 597F7D3F1998E74800C85CEC /* libz.dylib */; };
-		59D7EC19199B671A0022F0A0 /* LCSFMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7EC16199B66BE0022F0A0 /* LCSFMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F91D271998F9E2001B6A01 /* LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D0F1998F9E2001B6A01 /* LCSFoundationKit.m */; };
 		59F91D281998F9E2001B6A01 /* NSArray+LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F91D101998F9E2001B6A01 /* NSArray+LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F91D291998F9E2001B6A01 /* NSArray+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D111998F9E2001B6A01 /* NSArray+LCSFoundationKit.m */; };
@@ -276,7 +276,7 @@
 				59F91D2C1998F9E2001B6A01 /* NSData+LCSFoundationKit.h in Headers */,
 				59F91D301998F9E2001B6A01 /* CGGeometry_LCSFoundationKit.h in Headers */,
 				59F91D2A1998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.h in Headers */,
-				59D7EC19199B671A0022F0A0 /* LCSFMath.h in Headers */,
+				591E352619A38D0000E49204 /* LCSFMath.h in Headers */,
 				59F91D411998F9EB001B6A01 /* LCSFoundationKit-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,6 +676,7 @@
 				59009DAF19A1C514007C3314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		596641061998CF830064E4DF /* Build configuration list for PBXProject "LCSFoundationKit" */ = {
 			isa = XCConfigurationList;
