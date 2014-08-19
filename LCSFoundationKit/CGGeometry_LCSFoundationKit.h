@@ -64,4 +64,13 @@ CGPoint CGRectGetCenter(CGRect rect);
  */
 CGRect CGRectMakeBetweenPoints(CGPoint pointA, CGPoint pointB);
 
+/**
+ *  Return the Euclidean distance between to passed points.
+ *
+ *  @param pointA A point.
+ *  @param pointB Another point.
+ *
+ *  @return The Euclidean distance between the two points
+ */
+CGFloat CGPointsDistance(CGPoint pointA, CGPoint pointB);
 

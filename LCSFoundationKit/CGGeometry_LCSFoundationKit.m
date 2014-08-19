@@ -51,3 +51,8 @@ CGRect CGRectMakeBetweenPoints(CGPoint pointA, CGPoint pointB) {
     
     return rect;
 }
+
+CGFloat CGPointsDistance(CGPoint pointA, CGPoint pointB)
+{
+    return sqrt(pow(pointA.x - pointB.x, 2.0) + pow(pointA.y - pointB.y, 2.0));
+}
