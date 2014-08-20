@@ -14,11 +14,6 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>LCSFoundationKitTests.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -48,6 +43,26 @@
 			<true/>
 		</dict>
 		<key>59A5A00B19A1C2D00007666E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59C1C2A819A3DA2100C63FEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59C1C2B219A3DA2200C63FEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59ED566819A4964B00ED1971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59ED567219A4964B00ED1971</key>
 		<dict>
 			<key>primary</key>
 			<true/>
