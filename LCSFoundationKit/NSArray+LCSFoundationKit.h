@@ -26,4 +26,17 @@
  */
 - (id)anyObjectStoreIndexIn:(NSUInteger*)index;
 
+/**
+ *  Enumerates all combinations of the objects stored in the receiver. idxA is always guaranteed to be less than idxB. Doesn't do anything if the receiver contains less than two elements.
+ *
+ *  @param block A block to execute.
+ */
+- (void)enumerateDoubleCombinationsObjectsUsingBlock:(void (^)(id objA, NSUInteger idxA, id objB, NSUInteger idxB, BOOL * stop))block;
+
+
+/**
+ *  Returns an index set covering all indexes in the receiver.
+ */
+@property (readonly) NSIndexSet *allIndexes;
+
 @end

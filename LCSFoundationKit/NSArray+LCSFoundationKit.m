@@ -19,15 +19,56 @@
 {
     NSUInteger count = self.count;
     if (count == 0) {
-        *returnIndex = NSNotFound;
+        if (returnIndex != NULL) {
+            *returnIndex = NSNotFound;
+        }
+
         return nil;
     }
+    else {
+        NSUInteger index = arc4random_uniform((unsigned int)count);
+        
+        if (returnIndex != NULL) {
+            *returnIndex = index;
+        }
+        
+        return self[index];
+    }
+}
+
+- (void)enumerateDoubleCombinationsObjectsUsingBlock:(void (^)(id objA, NSUInteger idxA, id objB, NSUInteger idxB, BOOL * stop))block
+{
+    NSUInteger count = self.count;
+    if (count < 2) {
+        return;
+    }
     
-    NSUInteger index = arc4random_uniform((unsigned int)count);
+    NSFastEnumerationState state;
+    state.state = 0;
+    state.itemsPtr = NULL;
+    state.mutationsPtr = NULL;
     
-    *returnIndex = index;
+    __unsafe_unretained id objects[count];
     
-    return self[index];
+    [self countByEnumeratingWithState:&state objects:objects count:count];
+    
+    BOOL stop = NO;
+    
+    for (NSUInteger i = 0; i < count-1; i++) {
+        for (NSUInteger j = i + 1; j < count; j++) {
+            block(state.itemsPtr[i], i, state.itemsPtr[j], j, &stop);
+            
+            if (stop) {
+                return;
+            }
+        }
+    }
+}
+
+
+- (NSIndexSet*)allIndexes
+{
+    return [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, self.count)];
 }
 
 @end

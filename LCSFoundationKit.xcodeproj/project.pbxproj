@@ -10,13 +10,27 @@
 		59009DC519A1C557007C3314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59009DC419A1C557007C3314 /* CoreGraphics.framework */; };
 		59009DD719A1C625007C3314 /* LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59009DD319A1C620007C3314 /* LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		591E352619A38D0000E49204 /* LCSFMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D7EC16199B66BE0022F0A0 /* LCSFMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		592C5E6A19EA8092005CB053 /* NSFileManager+LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 592C5E6819EA8092005CB053 /* NSFileManager+LCSFoundationKit.h */; };
+		592C5E6B19EA8092005CB053 /* NSFileManager+LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 592C5E6819EA8092005CB053 /* NSFileManager+LCSFoundationKit.h */; };
+		592C5E6C19EA8092005CB053 /* NSFileManager+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 592C5E6919EA8092005CB053 /* NSFileManager+LCSFoundationKit.m */; };
+		592C5E6D19EA8092005CB053 /* NSFileManager+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 592C5E6919EA8092005CB053 /* NSFileManager+LCSFoundationKit.m */; };
+		592C5E7419EA822F005CB053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59009DC019A1C54B007C3314 /* Foundation.framework */; };
+		592C5E7519EA8246005CB053 /* NSArray+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D111998F9E2001B6A01 /* NSArray+LCSFoundationKit.m */; };
+		592C5E7619EA8246005CB053 /* NSDictionary+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D171998F9E2001B6A01 /* NSDictionary+LCSFoundationKit.m */; };
+		592C5E7719EA8246005CB053 /* NSIndexSet+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D1D1998F9E2001B6A01 /* NSIndexSet+LCSFoundationKit.m */; };
+		592C5E7819EA8246005CB053 /* CGGeometry_LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D191998F9E2001B6A01 /* CGGeometry_LCSFoundationKit.m */; };
+		592C5E7919EA8246005CB053 /* NSData+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D151998F9E2001B6A01 /* NSData+LCSFoundationKit.m */; };
+		592C5E7A19EA8246005CB053 /* NSString+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D231998F9E2001B6A01 /* NSString+LCSFoundationKit.m */; };
+		592C5E7B19EA8246005CB053 /* NSCharacterSet+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D131998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.m */; };
+		592C5E7C19EA8246005CB053 /* NSRegularExpression+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D211998F9E2001B6A01 /* NSRegularExpression+LCSFoundationKit.m */; };
+		592C5E7D19EA8246005CB053 /* NSURL+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D251998F9E2001B6A01 /* NSURL+LCSFoundationKit.m */; };
+		592C5E7E19EA8269005CB053 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 59009DBE19A1C546007C3314 /* libz.dylib */; };
+		592C5E7F19EA826E005CB053 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59009DC219A1C551007C3314 /* CoreGraphics.framework */; };
 		595A56DF1998FBC500E8749F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596641241998CF830064E4DF /* XCTest.framework */; };
 		595A56E21998FC0400E8749F /* NSRegularExpression_LCSFoundationKit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D451998F9FD001B6A01 /* NSRegularExpression_LCSFoundationKit_Tests.m */; };
 		596641291998CF830064E4DF /* LCSFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966410C1998CF830064E4DF /* LCSFoundationKit.framework */; };
 		597F7D3E1998E74000C85CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596641121998CF830064E4DF /* Foundation.framework */; };
 		597F7D401998E74800C85CEC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 597F7D3F1998E74800C85CEC /* libz.dylib */; };
-		59ED566E19A4964B00ED1971 /* LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ED566D19A4964B00ED1971 /* LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59F91D271998F9E2001B6A01 /* LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D0F1998F9E2001B6A01 /* LCSFoundationKit.m */; };
 		59F91D281998F9E2001B6A01 /* NSArray+LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F91D101998F9E2001B6A01 /* NSArray+LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F91D291998F9E2001B6A01 /* NSArray+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D111998F9E2001B6A01 /* NSArray+LCSFoundationKit.m */; };
 		59F91D2A1998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F91D121998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,7 +49,6 @@
 		59F91D3B1998F9E2001B6A01 /* NSString+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D231998F9E2001B6A01 /* NSString+LCSFoundationKit.m */; };
 		59F91D3C1998F9E2001B6A01 /* NSURL+LCSFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F91D241998F9E2001B6A01 /* NSURL+LCSFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F91D3D1998F9E2001B6A01 /* NSURL+LCSFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F91D251998F9E2001B6A01 /* NSURL+LCSFoundationKit.m */; };
-		59F91D411998F9EB001B6A01 /* LCSFoundationKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 59F91D3F1998F9EB001B6A01 /* LCSFoundationKit-Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,20 +67,15 @@
 		59009DC219A1C551007C3314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		59009DC419A1C557007C3314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		59009DD319A1C620007C3314 /* LCSFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCSFoundationKit.h; path = LCSFoundationKit/LCSFoundationKit.h; sourceTree = SOURCE_ROOT; };
+		592C5E6819EA8092005CB053 /* NSFileManager+LCSFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+LCSFoundationKit.h"; path = "LCSFoundationKit/NSFileManager+LCSFoundationKit.h"; sourceTree = SOURCE_ROOT; };
+		592C5E6919EA8092005CB053 /* NSFileManager+LCSFoundationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+LCSFoundationKit.m"; path = "LCSFoundationKit/NSFileManager+LCSFoundationKit.m"; sourceTree = SOURCE_ROOT; };
 		5966410C1998CF830064E4DF /* LCSFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCSFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		596641121998CF830064E4DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		596641231998CF830064E4DF /* LCSFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCSFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		596641241998CF830064E4DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		597F7D3F1998E74800C85CEC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		59A5A00F19A1C2D00007666E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		59C1C2B619A3DA2200C63FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D7EC16199B66BE0022F0A0 /* LCSFMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCSFMath.h; path = LCSFoundationKit/LCSFMath.h; sourceTree = SOURCE_ROOT; };
 		59ED566919A4964B00ED1971 /* LCSFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCSFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59ED566C19A4964B00ED1971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59ED566D19A4964B00ED1971 /* LCSFoundationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCSFoundationKit.h; sourceTree = "<group>"; };
-		59ED567619A4964B00ED1971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59ED567719A4964B00ED1971 /* LCSFoundationKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSFoundationKitTests.m; sourceTree = "<group>"; };
-		59F91D0F1998F9E2001B6A01 /* LCSFoundationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCSFoundationKit.m; path = LCSFoundationKit/LCSFoundationKit.m; sourceTree = SOURCE_ROOT; };
 		59F91D101998F9E2001B6A01 /* NSArray+LCSFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+LCSFoundationKit.h"; path = "LCSFoundationKit/NSArray+LCSFoundationKit.h"; sourceTree = SOURCE_ROOT; };
 		59F91D111998F9E2001B6A01 /* NSArray+LCSFoundationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LCSFoundationKit.m"; path = "LCSFoundationKit/NSArray+LCSFoundationKit.m"; sourceTree = SOURCE_ROOT; };
 		59F91D121998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+LCSFoundationKit.h"; path = "LCSFoundationKit/NSCharacterSet+LCSFoundationKit.h"; sourceTree = SOURCE_ROOT; };
@@ -86,9 +94,7 @@
 		59F91D231998F9E2001B6A01 /* NSString+LCSFoundationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LCSFoundationKit.m"; path = "LCSFoundationKit/NSString+LCSFoundationKit.m"; sourceTree = SOURCE_ROOT; };
 		59F91D241998F9E2001B6A01 /* NSURL+LCSFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+LCSFoundationKit.h"; path = "LCSFoundationKit/NSURL+LCSFoundationKit.h"; sourceTree = SOURCE_ROOT; };
 		59F91D251998F9E2001B6A01 /* NSURL+LCSFoundationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+LCSFoundationKit.m"; path = "LCSFoundationKit/NSURL+LCSFoundationKit.m"; sourceTree = SOURCE_ROOT; };
-		59F91D3E1998F9EB001B6A01 /* LCSFoundationKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LCSFoundationKit-Info.plist"; path = "LCSFoundationKit/LCSFoundationKit-Info.plist"; sourceTree = SOURCE_ROOT; };
-		59F91D3F1998F9EB001B6A01 /* LCSFoundationKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LCSFoundationKit-Prefix.pch"; path = "LCSFoundationKit/LCSFoundationKit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		59F91D431998F9F2001B6A01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LCSFoundationKit/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		59F91D3E1998F9EB001B6A01 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LCSFoundationKit/Info.plist; sourceTree = SOURCE_ROOT; };
 		59F91D451998F9FD001B6A01 /* NSRegularExpression_LCSFoundationKit_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRegularExpression_LCSFoundationKit_Tests.m; path = LCSFoundationKitTests/NSRegularExpression_LCSFoundationKit_Tests.m; sourceTree = SOURCE_ROOT; };
 		59F91D471998FA05001B6A01 /* LCSFoundationKitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LCSFoundationKitTests-Info.plist"; path = "LCSFoundationKitTests/LCSFoundationKitTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		59F91D4A1998FA0E001B6A01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LCSFoundationKitTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
@@ -118,6 +124,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592C5E7F19EA826E005CB053 /* CoreGraphics.framework in Frameworks */,
+				592C5E7E19EA8269005CB053 /* libz.dylib in Frameworks */,
+				592C5E7419EA822F005CB053 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,10 +138,6 @@
 			children = (
 				596641151998CF830064E4DF /* LCSFoundationKit */,
 				5966412A1998CF830064E4DF /* LCSFoundationKitTests */,
-				59C1C2AA19A3DA2200C63FEE /* LCSFoundationKit_iOS */,
-				59C1C2B419A3DA2200C63FEE /* LCSFoundationKit_iOSTests */,
-				59ED566A19A4964B00ED1971 /* LCSFoundationKit */,
-				59ED567419A4964B00ED1971 /* LCSFoundationKitTests */,
 				5966410E1998CF830064E4DF /* Frameworks */,
 				5966410D1998CF830064E4DF /* Products */,
 			);
@@ -158,7 +163,6 @@
 				597F7D3F1998E74800C85CEC /* libz.dylib */,
 				596641241998CF830064E4DF /* XCTest.framework */,
 				596641121998CF830064E4DF /* Foundation.framework */,
-				59A5A00F19A1C2D00007666E /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				59009DD319A1C620007C3314 /* LCSFoundationKit.h */,
-				59F91D0F1998F9E2001B6A01 /* LCSFoundationKit.m */,
 				59F91D101998F9E2001B6A01 /* NSArray+LCSFoundationKit.h */,
 				59F91D111998F9E2001B6A01 /* NSArray+LCSFoundationKit.m */,
 				59F91D161998F9E2001B6A01 /* NSDictionary+LCSFoundationKit.h */,
@@ -186,6 +189,8 @@
 				59F91D211998F9E2001B6A01 /* NSRegularExpression+LCSFoundationKit.m */,
 				59F91D241998F9E2001B6A01 /* NSURL+LCSFoundationKit.h */,
 				59F91D251998F9E2001B6A01 /* NSURL+LCSFoundationKit.m */,
+				592C5E6819EA8092005CB053 /* NSFileManager+LCSFoundationKit.h */,
+				592C5E6919EA8092005CB053 /* NSFileManager+LCSFoundationKit.m */,
 				59D7EC16199B66BE0022F0A0 /* LCSFMath.h */,
 				596641161998CF830064E4DF /* Supporting Files */,
 			);
@@ -196,9 +201,7 @@
 		596641161998CF830064E4DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				59F91D3E1998F9EB001B6A01 /* LCSFoundationKit-Info.plist */,
-				59F91D421998F9F2001B6A01 /* InfoPlist.strings */,
-				59F91D3F1998F9EB001B6A01 /* LCSFoundationKit-Prefix.pch */,
+				59F91D3E1998F9EB001B6A01 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,63 +225,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		59C1C2AA19A3DA2200C63FEE /* LCSFoundationKit_iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LCSFoundationKit_iOS;
-			sourceTree = "<group>";
-		};
-		59C1C2B419A3DA2200C63FEE /* LCSFoundationKit_iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				59C1C2B519A3DA2200C63FEE /* Supporting Files */,
-			);
-			path = LCSFoundationKit_iOSTests;
-			sourceTree = "<group>";
-		};
-		59C1C2B519A3DA2200C63FEE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				59C1C2B619A3DA2200C63FEE /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		59ED566A19A4964B00ED1971 /* LCSFoundationKit */ = {
-			isa = PBXGroup;
-			children = (
-				59ED566D19A4964B00ED1971 /* LCSFoundationKit.h */,
-				59ED566B19A4964B00ED1971 /* Supporting Files */,
-			);
-			path = LCSFoundationKit;
-			sourceTree = "<group>";
-		};
-		59ED566B19A4964B00ED1971 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				59ED566C19A4964B00ED1971 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		59ED567419A4964B00ED1971 /* LCSFoundationKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				59ED567719A4964B00ED1971 /* LCSFoundationKitTests.m */,
-				59ED567519A4964B00ED1971 /* Supporting Files */,
-			);
-			path = LCSFoundationKitTests;
-			sourceTree = "<group>";
-		};
-		59ED567519A4964B00ED1971 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				59ED567619A4964B00ED1971 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -294,10 +240,10 @@
 				59F91D3A1998F9E2001B6A01 /* NSString+LCSFoundationKit.h in Headers */,
 				59F91D2E1998F9E2001B6A01 /* NSDictionary+LCSFoundationKit.h in Headers */,
 				59F91D2C1998F9E2001B6A01 /* NSData+LCSFoundationKit.h in Headers */,
+				592C5E6A19EA8092005CB053 /* NSFileManager+LCSFoundationKit.h in Headers */,
 				59F91D301998F9E2001B6A01 /* CGGeometry_LCSFoundationKit.h in Headers */,
 				59F91D2A1998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.h in Headers */,
 				591E352619A38D0000E49204 /* LCSFMath.h in Headers */,
-				59F91D411998F9EB001B6A01 /* LCSFoundationKit-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +251,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59ED566E19A4964B00ED1971 /* LCSFoundationKit.h in Headers */,
+				592C5E6B19EA8092005CB053 /* NSFileManager+LCSFoundationKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +321,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Christoph Lauterbach";
 				TargetAttributes = {
+					5966410B1998CF830064E4DF = {
+						DevelopmentTeam = R5NRGPA29U;
+					};
 					596641221998CF830064E4DF = {
 						TestTargetID = 5966410B1998CF830064E4DF;
 					};
@@ -431,13 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F91D271998F9E2001B6A01 /* LCSFoundationKit.m in Sources */,
 				59F91D311998F9E2001B6A01 /* CGGeometry_LCSFoundationKit.m in Sources */,
 				59F91D291998F9E2001B6A01 /* NSArray+LCSFoundationKit.m in Sources */,
 				59F91D2F1998F9E2001B6A01 /* NSDictionary+LCSFoundationKit.m in Sources */,
 				59F91D351998F9E2001B6A01 /* NSIndexSet+LCSFoundationKit.m in Sources */,
 				59F91D2B1998F9E2001B6A01 /* NSCharacterSet+LCSFoundationKit.m in Sources */,
 				59F91D391998F9E2001B6A01 /* NSRegularExpression+LCSFoundationKit.m in Sources */,
+				592C5E6C19EA8092005CB053 /* NSFileManager+LCSFoundationKit.m in Sources */,
 				59F91D2D1998F9E2001B6A01 /* NSData+LCSFoundationKit.m in Sources */,
 				59F91D3B1998F9E2001B6A01 /* NSString+LCSFoundationKit.m in Sources */,
 				59F91D3D1998F9E2001B6A01 /* NSURL+LCSFoundationKit.m in Sources */,
@@ -456,6 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592C5E7619EA8246005CB053 /* NSDictionary+LCSFoundationKit.m in Sources */,
+				592C5E7719EA8246005CB053 /* NSIndexSet+LCSFoundationKit.m in Sources */,
+				592C5E7A19EA8246005CB053 /* NSString+LCSFoundationKit.m in Sources */,
+				592C5E6D19EA8092005CB053 /* NSFileManager+LCSFoundationKit.m in Sources */,
+				592C5E7819EA8246005CB053 /* CGGeometry_LCSFoundationKit.m in Sources */,
+				592C5E7519EA8246005CB053 /* NSArray+LCSFoundationKit.m in Sources */,
+				592C5E7B19EA8246005CB053 /* NSCharacterSet+LCSFoundationKit.m in Sources */,
+				592C5E7919EA8246005CB053 /* NSData+LCSFoundationKit.m in Sources */,
+				592C5E7C19EA8246005CB053 /* NSRegularExpression+LCSFoundationKit.m in Sources */,
+				592C5E7D19EA8246005CB053 /* NSURL+LCSFoundationKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,14 +429,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59F91D421998F9F2001B6A01 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59F91D431998F9F2001B6A01 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		59F91D491998FA0E001B6A01 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -562,14 +513,18 @@
 		596641351998CF830064E4DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LCSFoundationKit/LCSFoundationKit-Prefix.pch";
-				INFOPLIST_FILE = "LCSFoundationKit/LCSFoundationKit-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/LCSFoundationKit/Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = LCSFoundationKit;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -577,14 +532,18 @@
 		596641361998CF830064E4DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LCSFoundationKit/LCSFoundationKit-Prefix.pch";
-				INFOPLIST_FILE = "LCSFoundationKit/LCSFoundationKit-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/LCSFoundationKit/Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = LCSFoundationKit;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -721,6 +680,7 @@
 				59ED567B19A4964B00ED1971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
