@@ -11,6 +11,13 @@
 @interface NSArray (LCSFoundationKit)
 
 /**
+ *  Returns a new array with the members of the receiver shuffled, i. e. in random order.
+ *
+ *  @return A shuffled array.
+ */
+- (instancetype)shuffledArray;
+
+/**
  *  Returns a random object of the receiver.
  *
  *  @return A random object. <code>nil</code> if the receiver contains no objects.
@@ -38,5 +45,7 @@
  *  Returns an index set covering all indexes in the receiver.
  */
 @property (readonly) NSIndexSet *allIndexes;
+
+- (NSArray *)mapObjectsUsingBlock:(id (^)(id obj, NSUInteger idx))block;
 
 @end

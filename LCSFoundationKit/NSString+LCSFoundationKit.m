@@ -91,6 +91,46 @@
     return [NSString stringWithFormat:@"%@%@", whitespaceString, newString];
 }
 
+- (NSRange)rangeOfStringShortenedToLastWordInRange:(NSRange)range
+{
+    static NSRegularExpression *static_wordCutRegex;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        static_wordCutRegex = [NSRegularExpression regularExpressionWithPattern:@"\\s+\\S*$" options:NSRegularExpressionCaseInsensitive error:nil];
+    });
+
+    NSTextCheckingResult *result = [static_wordCutRegex firstMatchInString:self
+                                                                   options:0
+                                                                     range:range];
+    
+    if (result.range.location == 0) {
+        return range;
+    }
+    else {
+        return NSMakeRange(0, result.range.location);
+    }
+}
+
+- (NSRange)rangeOfStringShortenedToLastSentenceInRange:(NSRange)range
+{
+    static NSRegularExpression *static_sentenceCutRegex;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        static_sentenceCutRegex = [NSRegularExpression regularExpressionWithPattern:@"[^\\.!?]+$|(?<=[\\.!?])$" options:NSRegularExpressionCaseInsensitive error:nil];
+    });
+    NSTextCheckingResult *result = [static_sentenceCutRegex firstMatchInString:self
+                                                                       options:0
+                                                                         range:range];
+    
+    if (result.range.location == 0) {
+        return range;
+    }
+    else {
+        return NSMakeRange(0, result.range.location);
+    }
+}
+
+
 
 - (NSRange)completeRange
 {
@@ -154,6 +194,11 @@
     else {
         return nil;
     }
+}
+
+- (NSString*)stringByUnescapingEntities
+{
+    return CFBridgingRelease(CFXMLCreateStringByUnescapingEntities(NULL, (CFStringRef)self, NULL));
 }
 
 @end

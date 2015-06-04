@@ -10,6 +10,19 @@
 
 @implementation NSArray (LCSFoundationKit)
 
+- (instancetype)shuffledArray
+{
+    NSMutableArray *shuffledArray = [self mutableCopy];
+    
+    NSUInteger count = self.count;
+    for (NSUInteger i = 0; i < count; ++i) {
+        NSInteger remainingCount = count - i;
+        NSInteger exchangeIndex = i + arc4random_uniform((u_int32_t)remainingCount);
+        [shuffledArray exchangeObjectAtIndex:i withObjectAtIndex:exchangeIndex];
+    }
+    return [shuffledArray copy];
+}
+
 - (id)anyObject
 {
     return [self anyObjectStoreIndexIn:NULL];
@@ -65,10 +78,24 @@
     }
 }
 
-
 - (NSIndexSet*)allIndexes
 {
     return [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, self.count)];
 }
+
+- (NSArray *)mapObjectsUsingBlock:(id (^)(id obj, NSUInteger idx))block {
+    if (block == nil) {
+        return nil;
+    }
+    
+    NSMutableArray *result = [NSMutableArray arrayWithCapacity:self.count];
+    
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [result addObject:block(obj, idx)];
+    }];
+    
+    return [result copy];
+}
+
 
 @end

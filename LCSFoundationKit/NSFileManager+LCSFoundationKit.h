@@ -11,5 +11,6 @@
 @interface NSFileManager (LCSFoundationKit)
 
 - (NSURL*)libraryURL;
+- (NSURL*)documentsURL;
 
 @end

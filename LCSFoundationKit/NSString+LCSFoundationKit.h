@@ -77,6 +77,9 @@
  */
 - (NSString*)stringByShiftingRightByNumberOfWhitespaces:(NSUInteger)numberOfWhitespaces;
 
+- (NSRange)rangeOfStringShortenedToLastWordInRange:(NSRange)range;
+- (NSRange)rangeOfStringShortenedToLastSentenceInRange:(NSRange)range;
+
 /**
  *  Returns the user part of an email address. Returns <code>nil</code> if the string is not a valid email address.
  */
@@ -101,5 +104,7 @@
  *  Returns the top level domain part of an web url address. Returns <code>nil</code> if the string is not a valid web url address.
  */
 @property (readonly,nonatomic) NSString *tldForUrlString;
+
+@property (readonly,nonatomic) NSString *stringByUnescapingEntities;
 
 @end

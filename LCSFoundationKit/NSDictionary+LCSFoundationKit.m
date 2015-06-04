@@ -24,4 +24,14 @@
     return keySet.anyObject;
 }
 
+- (BOOL)containsAllKeys:(NSArray*)keys
+{
+    for (id key in keys) {
+        if (self[key] == nil) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
 @end

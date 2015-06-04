@@ -21,4 +21,6 @@
  */
 - (id)firstKeyForObject:(id)object;
 
+- (BOOL)containsAllKeys:(NSArray*)keys;
+
 @end

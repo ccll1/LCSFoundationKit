@@ -15,7 +15,7 @@
     static NSCharacterSet *nonDecimalDigitCharacterSet;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        nonDecimalDigitCharacterSet = [(NSCharacterSet*)[NSCharacterSet decimalDigitCharacterSet]invertedSet];
+        nonDecimalDigitCharacterSet = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];
     });
     return nonDecimalDigitCharacterSet;
 }
@@ -26,10 +26,21 @@
     static NSCharacterSet *nonAlphanumericCharacterset;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        nonAlphanumericCharacterset = [(NSCharacterSet*)[NSCharacterSet alphanumericCharacterSet] invertedSet];
+        nonAlphanumericCharacterset = [[NSCharacterSet alphanumericCharacterSet] invertedSet];
     });
     
     return nonAlphanumericCharacterset;
+}
+
++ (instancetype)UTICharacterSet
+{
+    static NSCharacterSet *utiCharacterSet;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        utiCharacterSet = [NSCharacterSet characterSetWithCharactersInString:@"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.-"];
+    });
+    
+    return utiCharacterSet;
 }
 
 @end

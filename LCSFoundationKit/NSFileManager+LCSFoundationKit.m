@@ -12,8 +12,15 @@
 
 - (NSURL*)libraryURL
 {
-    return [self URLsForDirectory:NSLibraryDirectory
+    return [self URLsForDirectory:NSUserDirectory
                         inDomains:NSUserDomainMask].firstObject;
 }
+
+- (NSURL*)documentsURL
+{
+    return [self URLsForDirectory:NSDocumentDirectory
+                        inDomains:NSUserDomainMask].firstObject;
+}
+
 
 @end

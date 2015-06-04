@@ -24,4 +24,11 @@
  */
 + (instancetype)nonAlphanumericCharacterSet;
 
+/**
+ *  Returns a character set containing all characters which are allowed in Uniform Type Identifiers (UTI), that is: a-z, A-Z, 0-9, hyphen ('-'), and period (.).
+ *
+ *  @return A character set containing all characters which are allowed in Uniform Type Identifiers (UTI).
+ */
++ (instancetype)UTICharacterSet;
+
 @end
