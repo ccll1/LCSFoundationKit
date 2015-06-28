@@ -15,6 +15,7 @@ FOUNDATION_EXPORT double LCSFoundationKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LCSFoundationKitVersionString[];
 
 #import <LCSFoundationKit/NSArray+LCSFoundationKit.h>
+#import <LCSFoundationKit/NSMutableArray+LCSFoundationKit.h>
 #import <LCSFoundationKit/NSDictionary+LCSFoundationKit.h>
 #import <LCSFoundationKit/NSIndexSet+LCSFoundationKit.h>
 #import <LCSFoundationKit/NSIndexPath+LCSFoundationKit.h>
@@ -28,4 +29,5 @@ FOUNDATION_EXPORT const unsigned char LCSFoundationKitVersionString[];
 #import <LCSFoundationKit/LCSFMainThreadCheck.h>
 #import <LCSFoundationKit/NSFileManager+LCSFoundationKit.h>
 #import <LCSFoundationKit/LCSFStopwatch.h>
+#import <LCSFoundationKit/NSOperation+AddDependencies.h>
 

@@ -7,19 +7,14 @@
 //
 
 #import "NSArray+LCSFoundationKit.h"
+#import "NSMutableArray+LCSFoundationKit.h"
 
 @implementation NSArray (LCSFoundationKit)
 
 - (instancetype)shuffledArray
 {
     NSMutableArray *shuffledArray = [self mutableCopy];
-    
-    NSUInteger count = self.count;
-    for (NSUInteger i = 0; i < count; ++i) {
-        NSInteger remainingCount = count - i;
-        NSInteger exchangeIndex = i + arc4random_uniform((u_int32_t)remainingCount);
-        [shuffledArray exchangeObjectAtIndex:i withObjectAtIndex:exchangeIndex];
-    }
+    [shuffledArray shuffle];
     return [shuffledArray copy];
 }
 
