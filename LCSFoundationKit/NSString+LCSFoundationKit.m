@@ -96,7 +96,8 @@
     static NSRegularExpression *static_wordCutRegex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        static_wordCutRegex = [NSRegularExpression regularExpressionWithPattern:@"\\s+\\S*$" options:NSRegularExpressionCaseInsensitive error:nil];
+        static_wordCutRegex = [NSRegularExpression regularExpressionWithPattern:@"\\s+\\S*$" options:NSRegularExpressionCaseInsensitive|NSRegularExpressionUseUnicodeWordBoundaries error:nil];
+//        static_wordCutRegex = [NSRegularExpression regularExpressionWithPattern:@"\\b.*$" options:NSRegularExpressionCaseInsensitive|NSRegularExpressionUseUnicodeWordBoundaries error:nil];
     });
 
     NSTextCheckingResult *result = [static_wordCutRegex firstMatchInString:self
@@ -116,7 +117,9 @@
     static NSRegularExpression *static_sentenceCutRegex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        static_sentenceCutRegex = [NSRegularExpression regularExpressionWithPattern:@"[^\\.!?]+$|(?<=[\\.!?])$" options:NSRegularExpressionCaseInsensitive error:nil];
+        static_sentenceCutRegex = [NSRegularExpression regularExpressionWithPattern:@"[^\\.!?。，]+$|(?<=[\\.!?。，])$"
+                                                                            options:NSRegularExpressionCaseInsensitive
+                                                                              error:nil];
     });
     NSTextCheckingResult *result = [static_sentenceCutRegex firstMatchInString:self
                                                                        options:0
