@@ -199,9 +199,11 @@
     }
 }
 
-- (NSString*)stringByUnescapingEntities
-{
-    return CFBridgingRelease(CFXMLCreateStringByUnescapingEntities(NULL, (CFStringRef)self, NULL));
-}
+//- (NSString*)stringByUnescapingEntities
+//{
+//    NSAssert(YES, @"always fail");
+//    return nil;
+////    return CFBridgingRelease(CFXMLCreateStringByUnescapingEntities(NULL, (CFStringRef)CFBridgingRetain(self), NULL));
+//}
 
 @end

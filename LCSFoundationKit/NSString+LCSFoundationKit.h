@@ -105,6 +105,6 @@
  */
 @property (readonly,nonatomic) NSString *tldForUrlString;
 
-@property (readonly,nonatomic) NSString *stringByUnescapingEntities;
+//@property (readonly,nonatomic) NSString *stringByUnescapingEntities;
 
 @end
